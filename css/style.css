@@ -47,7 +47,7 @@
   background-color: var(--first-background_color);
 }
 
-.txt_web-logo {
+.txt-web-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -58,7 +58,7 @@
   color: var(--focus-color);
 }
 
-.header_logo {
+.header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -69,7 +69,7 @@
   color: #000000;
 }
 
-.footer_logo {
+.footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -146,7 +146,7 @@
   text-transform: uppercase;
 }
 
-.skill-about_txt {
+.skill-about-txt {
   font-size: 14px;
   line-height: 1.71;
 
@@ -176,7 +176,7 @@
   letter-spacing: 0.03em;
 }
 
-.team-skill_txt {
+.team-skill-txt {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -184,7 +184,7 @@
   letter-spacing: 0.03em;
 }
 
-.footer_mail-link {
+.footer-mail-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -193,7 +193,7 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer_tel-link {
+.footer-tel-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
