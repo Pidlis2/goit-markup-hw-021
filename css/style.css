@@ -1,8 +1,8 @@
 :root {
-  --secondary_txt: #757575;
-  --first-background_color: #2f303a;
-  --secondary-background_color: #e5e5e5;
-  --third-backround_color: #f5f4fa;
+  --secondary-txt: #757575;
+  --first-background-color: #2f303a;
+  --secondary-background-color: #e5e5e5;
+  --third-backround-color: #f5f4fa;
   --focus-color: #2196f3;
 }
 
@@ -24,19 +24,19 @@
 }
 
 .hero-section {
-  background-color: var(--first-background_color);
+  background-color: var(--first-background-color);
 }
 
 .skill-section {
-  background-color: var(--secondary-background_color);
+  background-color: var(--secondary-background-color);
 }
 
 .work-section {
-  background-color: var(--secondary-background_color);
+  background-color: var(--secondary-background-color);
 }
 
 .team-section {
-  background-color: var(--third-backround_color);
+  background-color: var(--third-backround-color);
 }
 .body {
   font-family: 'Roboto', sans-serif;
@@ -44,7 +44,7 @@
 }
 
 .footer {
-  background-color: var(--first-background_color);
+  background-color: var(--first-background-color);
 }
 
 .txt-web-logo {
@@ -97,7 +97,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: var(--secondary_txt);
+  color: var(--secondary-txt);
 }
 .mail-link:hover,
 .mail-link:focus {
@@ -110,7 +110,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: var(--secondary_txt);
+  color: var(--secondary-txt);
 }
 
 .tel-link:hover,
@@ -152,7 +152,7 @@
 
   letter-spacing: 0.03em;
 
-  color: var(--secondary_txt);
+  color: var(--secondary-txt);
 }
 
 .work-title {
@@ -180,7 +180,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  color: var(--secondary_txt);
+  color: var(--secondary-txt);
   letter-spacing: 0.03em;
 }
 
