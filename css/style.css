@@ -1,3 +1,11 @@
+:root {
+  --secondary_txt: #757575;
+  --first-background_color: #2f303a;
+  --secondary-background_color: #e5e5e5;
+  --third-backround_color: #f5f4fa;
+  --focus-color: #2196f3;
+}
+
 .link {
   text-decoration: none;
 }
@@ -7,48 +15,190 @@
 
 .address {
   font-style: normal;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+}
+
+.hero-section {
+  background-color: var(--first-background_color);
+}
+
+.skill-section {
+  background-color: var(--secondary-background_color);
+}
+
+.work-section {
+  background-color: var(--secondary-background_color);
+}
+
+.team-section {
+  background-color: var(--third-backround_color);
+}
+.body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+.footer {
+  background-color: var(--first-background_color);
+}
+
+.txt_web-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: var(--focus-color);
+}
+
+.header_logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.footer_logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+  color: rgb(255, 255, 255);
 }
 
 .nav-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: #212121;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--focus-color);
 }
 
 .mail-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--secondary_txt);
 }
 .mail-link:hover,
 .mail-link:focus {
-  color: #2196f3;
+  color: var(--focus-color);
 }
 
 .tel-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--secondary_txt);
 }
 
 .tel-link:hover,
 .tel-link:focus {
-  color: #2196f3;
+  color: var(--focus-color);
+}
+
+.order-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  letter-spacing: 0.06em;
+  background: var(--focus-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.skill-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.skill-about_txt {
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: var(--secondary_txt);
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.team-name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-skill_txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary_txt);
+  letter-spacing: 0.03em;
+}
+
+.footer_mail-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer_tel-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
