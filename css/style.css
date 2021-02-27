@@ -1,8 +1,8 @@
 :root {
   --secondary-txt: #757575;
   --first-background-color: #2f303a;
-  --secondary-background-color: #e5e5e5;
-  --third-backround-color: #f5f4fa;
+  --secondary-background-color: #f5f4fa;
+
   --focus-color: #2196f3;
 }
 
@@ -27,17 +27,10 @@
   background-color: var(--first-background-color);
 }
 
-.skill-section {
-  background-color: var(--secondary-background-color);
-}
-
-.work-section {
-  background-color: var(--secondary-background-color);
-}
-
 .team-section {
-  background-color: var(--third-backround-color);
+  background-color: var(--secondary-background-color);
 }
+
 .body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
