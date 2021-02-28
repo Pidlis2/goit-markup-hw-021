@@ -118,7 +118,7 @@
   color: #ffffff;
   cursor: pointer;
 }
-.model-btn :hover,
+.model-btn:hover,
 .model-btn:focus {
   background-color: var(--button-color);
   color: #ffffff;
@@ -128,7 +128,7 @@
   font-size: 16px;
   line-height: 1.62;
   background-color: var(--secondary-background-color);
-
+  cursor: pointer;
   letter-spacing: 0.03em;
 }
 .main-title {
