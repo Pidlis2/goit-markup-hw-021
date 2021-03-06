@@ -138,14 +138,8 @@ a {
 
   color: var(--secondary-txt);
 }
-
+.team-title,
 .work-title {
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-}
-
-.team-title {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -167,14 +161,10 @@ a {
 }
 
 .footer-mail-link {
-  font-weight: 400;
-
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
   color: var(--adress-link-color);
 }
-
+.footer-mail-link,
+.address,
 .footer-tel-link {
   font-weight: 400;
 
@@ -203,10 +193,5 @@ a {
 }
 .address {
   font-style: normal;
-
-  font-weight: 400;
-
-  line-height: 1.71;
   color: var(--third-color);
-  letter-spacing: 0.03em;
 }
